@@ -1,0 +1,1 @@
+result = z[z['x'].notnull()].fillna(0).reset_index(drop=True)
