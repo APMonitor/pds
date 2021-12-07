@@ -1,0 +1,1 @@
+print(soup.title.text)
