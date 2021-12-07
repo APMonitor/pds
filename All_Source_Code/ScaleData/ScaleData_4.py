@@ -1,0 +1,1 @@
+s_test = s.fit_transform(test)

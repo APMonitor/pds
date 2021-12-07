@@ -1,0 +1,1 @@
+data.plot(kind='box', subplots=True, figsize=(12,3))

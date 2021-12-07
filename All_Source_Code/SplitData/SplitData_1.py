@@ -1,0 +1,1 @@
+train, test = train_test_split(data, test_size=0.2, shuffle=False)
