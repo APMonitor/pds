@@ -1,4 +1,4 @@
 import xgboost as xgb
-xgbc = xgb.XGBClassifier()
+xgbc = xgb.XGBRegressor()
 xgbc.fit(XA,yA)
 yP = xgbc.predict(XB)
