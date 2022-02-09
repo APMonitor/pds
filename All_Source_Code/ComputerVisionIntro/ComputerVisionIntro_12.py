@@ -1,0 +1,1 @@
+cv.imwrite('students.png',im)

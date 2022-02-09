@@ -1,1 +1,1 @@
-cv.imwrite('students.png',im)
+im2 = cv.resize(im,None,fx=0.5,fy=0.5)
