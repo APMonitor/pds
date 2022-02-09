@@ -4,7 +4,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 from sklearn.linear_model import LogisticRegression
-classifier = LogisticRegression(solver='lbfgs')
+classifier = LogisticRegression(max_iter=5000,\
+                                solver='lbfgs',\
+                                multi_class='auto')
 
 # The digits dataset
 digits = datasets.load_digits()
