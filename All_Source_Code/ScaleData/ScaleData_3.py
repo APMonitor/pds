@@ -1,3 +1,3 @@
-print('a: ', s.scale_)
-print('Scaler mean')
-print('b: ', s.mean_)
+from sklearn.preprocessing import StandardScaler
+s = StandardScaler()
+s_train = s.fit_transform(train)

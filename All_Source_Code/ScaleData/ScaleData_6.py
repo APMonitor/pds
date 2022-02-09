@@ -1,4 +1,3 @@
-from sklearn.preprocessing import MinMaxScaler
-s = MinMaxScaler(feature_range=(0,1))
-s_train = s.fit_transform(train)
-s_test  = s.transform(test)
+# convert scaled values back to dataframe
+s_train_df = pd.DataFrame(s_train, columns=train.columns.values)
+s_test_df = pd.DataFrame(s_test, columns=test.columns.values)

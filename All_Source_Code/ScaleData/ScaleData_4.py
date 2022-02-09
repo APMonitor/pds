@@ -1,1 +1,3 @@
-s_test = s.fit_transform(test)
+print('a: ', s.scale_)
+print('Scaler mean')
+print('b: ', s.mean_)

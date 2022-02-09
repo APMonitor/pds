@@ -1,4 +1,4 @@
-print('Scaler multipliers')
-print('a: ', s.scale_)
-print('Scaler minimum')
-print('b: ', s.min_)
+from sklearn.preprocessing import MinMaxScaler
+s = MinMaxScaler(feature_range=(0,1))
+s_train = s.fit_transform(train)
+s_test  = s.transform(test)
