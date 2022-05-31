@@ -6,4 +6,16 @@ Machine learning is a convergence of linear algebra, statistics, optimization, a
 
 The course combines mathematical details with several case studies that provide an intuition for machine learning with methods for classification, regression, and dimensionality reduction. A second phase of the course is a hands-on group project. The engineering problems and theory will guide the student towards a working fluency in state-of-the-art methods implemented in Python.
 
+### Learning Outcomes
+
+-Visualize data to understand relationships and assess data quality
+-Apply linear algebra, statistics, and optimization techniques to create machine learning algorithms
+-Understand engineering and business objectives to plan applications
+-Assess data information content and predictive capability
+-Detect overfitting and implement strategies to improve prediction
+-Master the use of machine learning packages with understanding of how hyperparameters can be adjusted to improve performance
+-Understand the differences between classification, regression, and clustering and when each can be applied
+-Communicate machine learning decisions with uncertainty quantification
+-Implement machine learning techniques successfully to complete a group project
+
 See https://apmonitor.com/pds
