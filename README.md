@@ -1,4 +1,4 @@
-# Data Science and Machine Learning
+# Machine Learning for Engineers
 
 Machine learning is a convergence of linear algebra, statistics, optimization, and computational methods to allow computers to make decisions and take action from data. Examples of machine learning are now pervasive and are expected to further influence transportation, entertainment, retail, and energy industries. This engineering course reviews theory and applications of machine learning to engineering applications with a survey of unsupervised and supervised learning methods.
 
