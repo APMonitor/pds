@@ -1,0 +1,35 @@
+Linear Regression
+
+mse train
+847.1567360290074
+
+ANN GEKKO - 5 tanh
+mse train
+510.5742665821397
+
+---- Linear Regression --------------
+ms_abs train - Linear regression
+0.04432753191839428
+ms_abs validate
+0.045045187934603256
+
+-------------- TensorFlow -------------------------------
+TensorFlow (1000 epochs - overtraining?)
+Mean sum abs diff - Training 0.028778776316279637
+Mean sum abs diff - Validate 0.10377812354052143
+
+TensorFlow (300 epochs)
+Mean sum abs diff - Training 0.03747426548575802
+Mean sum abs diff - Validate 0.06579851753218938
+
+--------------- GEKKO without constraint ----------------
+ms_abs train - 5 Neurons
+0.03992367902613089
+ms_abs validate
+0.061290126578834786
+
+--------------- GEKKO with constraint  w1 >= 0 ----------------
+ms_abs train
+0.0609934927226225
+ms_abs validate
+0.05289622331640575
